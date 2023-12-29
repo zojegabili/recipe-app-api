@@ -15,5 +15,5 @@ class CalcTests(SimpleTestCase):
 
     def test_substract_numbers(self):
         """Test substracting numbers together"""
-        res=calc.substract(10,15)
-        self.assertEqual(res, -5)
+        res=calc.substract(10, 15)
+        self.assertEqual(res, 5)
